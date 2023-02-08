@@ -80,3 +80,26 @@
  .section-area-atuacao p{
    margin-bottom: 20px;
  }
+  
+  /* ===  melhorando a parte responsiva da 1ª seção === */
+  @media only screen and (max-width: 800px) {
+    .header-bg-image {
+      min-height: auto;
+    }
+  
+    .header-text {
+      text-shadow: 2px .5px 2px #fff;
+    }
+  }
+  
+   /* ===  melhorando a parte responsiva da 2ª seção === */
+ @media only screen and (max-width: 700px) {
+    .section-about-image {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .section-about-image img {
+      width: 50%;
+    }
+  }
